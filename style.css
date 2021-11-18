@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rotate{
+    transform: rotate(90deg);
+    /* border: 1px solid; */
+    height: fit-content;
+    width: auto;
+    margin-top: 4rem;
+    margin-left: -50px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.rotate{
+    font-size: 0.7rem;
+}
+
+img{
+    box-shadow: 10px 10px 30px grey;
+}
+
+.card-text{
+    font-size: 1.3rem;
+}
+
+#switch{
+    cursor: pointer;
+}
